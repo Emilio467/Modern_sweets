@@ -1,0 +1,189 @@
+*{
+    margin: 0; 
+}
+
+.menu{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.a > button{
+    margin-left: 20px;
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+}
+
+.a > button:hover{
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 200px;
+    height: 100%;
+    background-color: white;
+}
+
+.cart{
+    width: 42px;
+    height: 40px;
+    
+}
+
+.cart2{
+    width: 100%;
+    height: 100%;
+}
+
+.historia{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.historia > h1{
+    margin-bottom: 20px;
+}
+
+.historia > p{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.especialidades{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.padrao{
+    width: 270px;
+    height: 270px;
+    filter:drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.3));
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    background-color: white;
+}
+
+.padrao > img{
+    background-color: transparent;
+    width: 70px;
+    height: auto;
+}
+
+.padrao > h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.padrao > p{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.confeiteiros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: bisque;
+}
+
+.confeiteiros > img{
+    width: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.contexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.contexto > p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.pe{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nossasredes{
+    margin-left: 20px;
+    padding-top: 20px;
+    background-color: transparent;
+    
+}
+
+.instagram{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.instagram:hover{
+    cursor:pointer;
+
+}
+
+.facebook{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.facebook:hover{
+    cursor: pointer;
+}
+
+.social{
+    background-color: transparent;
+}
+
+.social > button{
+    background-color: transparent;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social > button:hover{
+    cursor: pointer;
+}
+
+.pe > p{
+    background-color: transparent;
+}

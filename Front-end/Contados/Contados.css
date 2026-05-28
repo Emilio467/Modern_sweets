@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+}
+
+
+.menu{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.a > button{
+    margin-left: 20px;
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+}
+
+.a > button:hover{
+    background-color: grey;
+    border-radius: 20px;
+}
+
+
+.logo{
+    width: 200px;
+    height: 100%;
+}
+
+
+.cart{
+    width: 42px;
+    height: 40px;
+    
+}
+
+.cart2{
+    width: 100%;
+    height: 100%;
+}
+
+.fale{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.fale > img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.contato{
+    width: 100%;
+    height: 650px;
+  /*  background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.informacoes{
+    width: 500px;
+    height: auto;
+    background-color: white;
+    margin-top: 30px;    
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.3));
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.padrão{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padrão > img{
+    width: 100px;
+}
+
+
+.padrao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.padrao > img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.enviar{
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 40px;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.3));
+}
+
+.enviar > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviar > form > label, input{
+    margin-top: 10px;
+    border-color: rgba(0, 0, 0, 0.192);
+    border-radius: 7px;
+}
+
+.padrao0 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+}
+
+.padrao0:hover{
+    cursor:pointer;
+    background-color: rgb(139, 73, 95);
+}
+
+.enviar-mensagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enviar-mensagem > img{
+    width: 70px;
+    height: auto;
+}
+
+.especialidades{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.3));
+}
+
+.padrao1{
+    width: 270px;
+    height: 150px;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px
+}
+
+.padrao1 > img{
+    width: 70px;
+    height: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(92, 64, 51);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer > img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.footer > p{
+    margin-right: 90px;
+}
